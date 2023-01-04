@@ -20,6 +20,7 @@ class _CounterState extends State<Counter> {
         title: Text("Counter"),
       ),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Center(
               // Center is a layout widget. It takes a single child and positions it
